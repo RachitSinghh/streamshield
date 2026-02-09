@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production
+build/
+dist/
+.next/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Uploads
+backend/src/uploads/*
+!backend/src/uploads/.gitkeep
+
+# Misc
+.cache/
+.temp/
+*.pid
+*.seed
+*.pid.lock
+
+
+#model
+design.md   
+folderstructure.md
+TODO.md
+prd.md
+temp_auto_push.bat
+temp_interactive_push.bat
+branch_structure.json
